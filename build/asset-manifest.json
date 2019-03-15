@@ -1,13 +1,8 @@
 {
-  "main.css": "/static/css/main.75bc5f27.chunk.css",
-  "main.js": "/static/js/main.11b754b3.chunk.js",
-  "main.js.map": "/static/js/main.11b754b3.chunk.js.map",
-  "static/js/1.dd48a306.chunk.js": "/static/js/1.dd48a306.chunk.js",
-  "static/js/1.dd48a306.chunk.js.map": "/static/js/1.dd48a306.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.75bc5f27.chunk.css.map": "/static/css/main.75bc5f27.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.b52aef7a3f5438cea17f2e06cf65a644.js": "/precache-manifest.b52aef7a3f5438cea17f2e06cf65a644.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "static/css/main.d2b495a6.css",
+  "main.css.map": "static/css/main.d2b495a6.css.map",
+  "main.js": "static/js/main.107d63c7.js",
+  "main.js.map": "static/js/main.107d63c7.js.map",
+  "static/media/marc.jpg": "static/media/marc.8880a65c.jpg",
+  "static/media/sidebar-2.jpg": "static/media/sidebar-2.310509c9.jpg"
 }

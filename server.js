@@ -1,23 +1,22 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3001;
-const cors = require('cors');
+const cors = require("cors");
 
-// config midleware 
-app.use(express.static('./build'));
+// config midleware
+app.use(express.static("./build"));
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.sendFile('./build/index.html');
+app.get("/", (req, res) => {
+  res.sendFile("./build/index.html");
 });
 // Home page
-app.get('/api/home', (req, res) => {
-  res.json({title: 'Home'});
+app.get("/api/home", (req, res) => {
+  res.json({ title: "Home" });
 });
 // about page
-app.get('/api/about', (req, res) => {
-  res.json({title: 'About'});
+app.get("/api/about", (req, res) => {
+  res.json({ title: "About" });
 });
 
-
-app.listen(PORT);
+app.listen(PORT, () => console.log("service on port 3001"));
